@@ -8,7 +8,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 ## install packages if necessary
-list.of.packages <- c("httr", "readxl", "dplyr", "tidyr", "stringr", "reshape2", "skimr", "ggplot2")
+list.of.packages <- c("httr", "readxl", "dplyr", "tidyr", "stringr", "reshape2", "skimr", "ggplot2", "usethis")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
